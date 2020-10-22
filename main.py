@@ -8,6 +8,9 @@ full_name = owner + "/" + repo
 list_user = git.get_user_openpr(owner, repo, full_name)
 print(list_user)
 
+print()
+print("***********************************************************")
+print()
 
 # Example for get repos from topic
 feature = "docker"
